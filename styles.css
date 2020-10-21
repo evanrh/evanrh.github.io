@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap');
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 140, 255), rgba(0, 0, 0, 0.664));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container {
+    background-color: rgba(99, 99, 99, .6);
+    text-align: center;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+}
+
+.container hr {
+    border-top: 2px solid;
+}
+.container p{
+    color: black;
+}
+
+#logo {
+    margin-top: 20px;
+    height: 150px;
+}
+
+#skills {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#socials {
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#socials a {
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.fa {
+    color: gray;
+    font-size: 50px;
+}
+
+.fa-linkedin-square {
+    color: #0073b1;
+}
+
+.fa-instagram {
+    color: #df58e4;
+}
+
+.fa:hover {
+    color: white;
+}
+
+.fa-home {
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.fa-home:hover {
+    color: gray;
+}
